@@ -10,7 +10,7 @@ using System.Web.Mvc;
 
 namespace BuscaAnimal1.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class RolesController : Controller
     {
 
