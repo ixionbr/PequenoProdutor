@@ -14,7 +14,10 @@
         }
         @Html.ActionLink("Olá " + currentUser.Name + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
     </li>
-    <li>@Html.ActionLink("Níveis de Usuário", "Index", "Roles")</li>
+    @if (User.IsInRole("Administrador"))
+    {
+        <li>@Html.ActionLink("Níveis de Usuário", "Index", "Roles")</li>
+    }
     <li>@Html.ActionLink("Produtos", "Index", "Produtoes")</li>
     <li><a href="javascript:document.getElementById('logoutForm').submit()">Fazer logoff</a></li>
 </ul>

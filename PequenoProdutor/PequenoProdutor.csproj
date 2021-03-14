@@ -187,6 +187,18 @@
     <Compile Include="Migrations\202103140236499_terceiraMigracao.Designer.cs">
       <DependentUpon>202103140236499_terceiraMigracao.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103140347348_quartaMigracao.cs" />
+    <Compile Include="Migrations\202103140347348_quartaMigracao.Designer.cs">
+      <DependentUpon>202103140347348_quartaMigracao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103140409127_QuintaMigracao.cs" />
+    <Compile Include="Migrations\202103140409127_QuintaMigracao.Designer.cs">
+      <DependentUpon>202103140409127_QuintaMigracao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103140413468_SextaMigracao.cs" />
+    <Compile Include="Migrations\202103140413468_SextaMigracao.Designer.cs">
+      <DependentUpon>202103140413468_SextaMigracao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -287,6 +299,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103140236499_terceiraMigracao.resx">
       <DependentUpon>202103140236499_terceiraMigracao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103140347348_quartaMigracao.resx">
+      <DependentUpon>202103140347348_quartaMigracao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103140409127_QuintaMigracao.resx">
+      <DependentUpon>202103140409127_QuintaMigracao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103140413468_SextaMigracao.resx">
+      <DependentUpon>202103140413468_SextaMigracao.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

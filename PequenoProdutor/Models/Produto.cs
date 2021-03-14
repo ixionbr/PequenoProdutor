@@ -11,9 +11,12 @@ namespace PequenoProdutor.Models
     {
         [Key]
         public int ID { get; set; }
+        
         public string Nome { get; set; }
+       
         [Column(TypeName = "ntext")]
         public string Descricao { get; set; }
+        
         public float Preco { get; set; }
 
     }
