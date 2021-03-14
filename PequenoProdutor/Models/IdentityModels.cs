@@ -31,6 +31,8 @@ namespace PequenoProdutor.Models
         {
         }
 
+        public DbSet<Produto> Produtos { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
